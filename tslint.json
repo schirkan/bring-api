@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*",
+      "dist/**/*"
+    ]
+  },
+  "rules": {
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "max-line-length": false
+  }
+}

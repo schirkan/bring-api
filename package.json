@@ -1,0 +1,26 @@
+{
+    "name": "bring-api",
+    "version": "0.1.0",
+    "author": {
+        "name": "Martin Pietschmann",
+        "email": "schirkan@gmail.com"
+    },
+    "description": "API for https://getbring.com shopping list",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/schirkan/bring-api"
+    },
+    "main": "dist/BringApi.js",
+    "types": "dist/BringApi.d.ts",
+    "scripts": {
+        "build": "tsc -p ."
+    },
+    "dependencies": {
+        "request-promise-native": "^1.0.5"
+    },
+    "devDependencies": {
+        "@types/request-promise-native": "^1.0.15",
+        "typescript": "^3.2.2"
+    }
+}
